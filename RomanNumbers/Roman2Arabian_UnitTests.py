@@ -18,16 +18,16 @@ def roman2arabian(to_convert):
 
 class Roman2Arabian(unittest.TestCase):
     def test_I_converts_to_1(self):
-        self.assertEquals(roman2arabian("I"), 1)
+        self.assertEquals(1, roman2arabian("I"))
 
     def test_V_converts_to_5(self):
-        self.assertEquals(roman2arabian("V"), 5)
+        self.assertEquals(5, roman2arabian("V"))
 
     def test_II_converts_to_2(self):
-        self.assertEquals(roman2arabian("II"), 2)
+        self.assertEquals(2, roman2arabian("II"))
 
     def test_IV_converts_to_4(self):
-        self.assertEquals(roman2arabian("IV"), 4)
+        self.assertEquals(4, roman2arabian("IV"))
 
     def test_MCDXLVIII_converts_to_1448(self):
-        self.assertEquals(roman2arabian("MCDXLVIII"), 1448)
+        self.assertEquals(1448, roman2arabian("MCDXLVIII"))
