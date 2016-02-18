@@ -26,5 +26,8 @@ class Roman2Arabian(unittest.TestCase):
     def test_II_converts_to_2(self):
         self.assertEquals(roman2arabian("II"), 2)
 
+    def test_IV_converts_to_4(self):
+        self.assertEquals(roman2arabian("IV"), 4)
+
     def test_MCDXLVIII_converts_to_1448(self):
         self.assertEquals(roman2arabian("MCDXLVIII"), 1448)
